@@ -1,0 +1,83 @@
+body {
+  background: url("../img/Register.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.login {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+}
+.login-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 3.125rem;
+}
+.login-title + p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.form-login div button, .form-login div input {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  text-indent: 60px;
+  font-size: 1.125rem;
+  outline: 2px solid #fff;
+  color: #fff;
+}
+.form-login div button:active, .form-login div button:focus-visible, .form-login div button:visited, .form-login div input:active, .form-login div input:focus-visible, .form-login div input:visited {
+  background-color: transparent;
+}
+.form-login div button::-moz-placeholder, .form-login div input::-moz-placeholder {
+  font-size: 0.9375rem;
+  font-weight: bold;
+}
+.form-login div button::placeholder, .form-login div input::placeholder {
+  font-size: 0.9375rem;
+  font-weight: bold;
+}
+
+.form-login .btn-submit {
+  text-indent: 0;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #fff;
+}
+.form-login .btn-submit:hover {
+  background-color: #274fc7;
+}
+
+.field {
+  position: relative;
+  width: 352px;
+  height: 45px;
+  margin: 20px auto;
+}
+
+.lock,
+.user {
+  position: absolute;
+  left: 8px;
+  top: 2px;
+}
+
+.open-eye,
+.close-eye {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  display: none;
+}/*# sourceMappingURL=login.css.map */
