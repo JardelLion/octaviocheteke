@@ -39,6 +39,9 @@ body {
             height: 100%;
             margin: 0 auto;
             border-radius: 15px;
+            -webkit-border-radius: 15px;     
+            -moz-border-radius:15px;
+            -khtml-border-radius:15px;
             border: none;
             outline: none;
             background-color: transparent;
